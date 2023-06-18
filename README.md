@@ -9,13 +9,15 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 
 To initialize your local repository, use command:
 
-bash
+``` bash
 repo init -u https://github.com/aanjaOS/manifest.git -b 13.1 --git-lfs
+```
 
 Then sync up:
 
-bash
+``` bash
 repo sync
+```
 
 Building the System
 -------------------
@@ -33,7 +35,7 @@ lunch aanja_devicecodename-buildtype
 
 Start compilation
 
-````bash
+``` bash
 m otapackage
 ```
 
