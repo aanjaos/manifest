@@ -1,62 +1,44 @@
-<img src="https://github.com/ArrowOS/getting_started/blob/master/misc/logo.png?raw=true">
+<img src="https://media.discordapp.net/attachments/1120037318611439670/1120073329064300544/aanjaOS_Banner_I_want_to_copy_HentaiOS_and_Evolution_X_at_the_same.png?width=993&height=559">
 
-# ArrowOS
+# aanjaOS
 
  Getting Started
 ---------------
-To get started with the ArrowOS sources, you'll need to get
+To get started with the aanjaOS sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
 
 To initialize your local repository, use command:
 
-```bash
-repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-13.1
-```
+bash
+repo init -u https://github.com/aanjaOS/manifest.git -b 13.1 --git-lfs
 
 Then sync up:
 
-```bash
+bash
 repo sync
-```
 
 Building the System
 -------------------
  Initialize the ROM environment with the envsetup.sh script.
 
-```bash
+``` bash
 . build/envsetup.sh
 ```
 
 Lunch your device after cloning all device sources if needed.
 
-```bash
-lunch arrow_devicecodename-buildtype
+``` bash
+lunch aanja_devicecodename-buildtype
 ```
 
 Start compilation
 
-```bash
+````bash
 m otapackage
 ```
 
 OR
 
-```bash
+``` bash
 m bacon
 ```
-
-**You can also refer to our detailed guides as listed below:**
-
-[How to compile ArrowOS from source](https://blog.arrowos.net/android/arrowos/guides/compilation-guide)
-
-[How to submit patches to ArrowOS Gerrit](https://blog.arrowos.net/android/arrowos/guides/how-to-submit-patches-to-arrowos-gerrit)
-
-[Apply for Maintainership](https://blog.arrowos.net/android/arrowos/community/apply-for-maintainership) OR [Submit device for community builds](https://blog.arrowos.net/android/arrowos/news/introducing-community-builds)
-
-To check thread template refer [**HERE**](https://raw.githubusercontent.com/ArrowOS/documentation/master/thread_template.txt)
-
----------------------------------------------------------------------------------------------------------------------
-
-[ArrowOS Website](https://www.arrowos.net) | [ArrowOS Blog](https://blog.arrowos.net)
-
----------------------------------------------------------------------------------------------------------------------
